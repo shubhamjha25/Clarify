@@ -1,19 +1,19 @@
 import React from "react";
 import Feed from "./Feed.js";
 import QHeader from "./QHeader";
-import "./Quora.css";
-import Widget from "./Widget.js";
+import "./QNA.css";
+import Developers from "./Developers";
 
-function Quora() {
+function QNA() {
   return (
     <div className="quora">
       <QHeader />
       <div className="quora__content">
         <Feed />
-        <Widget />
+        <Developers />
       </div>
     </div>
   );
 }
 
-export default Quora;
+export default QNA;

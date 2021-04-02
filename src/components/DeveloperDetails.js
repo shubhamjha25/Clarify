@@ -1,7 +1,7 @@
 import React from "react";
-import "./WidgetContent.css";
+import "./DeveloperDetails.css";
 
-function WidgetContent() {
+function DeveloperDetails() {
   return (
     <div className="widget__contents">
       <div className="widget__content">
@@ -38,4 +38,4 @@ function WidgetContent() {
   );
 }
 
-export default WidgetContent;
+export default DeveloperDetails;

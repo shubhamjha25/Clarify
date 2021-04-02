@@ -1,10 +1,10 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
+import { Avatar } from "@material-ui/core";
 import { useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
-import "./QuoraBox.css";
+import "./QNABox.css";
 
-export default function QuorBox() {
+export default function QNABox() {
   const user = useSelector(selectUser);
 
   return (
